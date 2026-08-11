@@ -15,9 +15,7 @@ OutboxPoller
 @Component
 @RequiredArgsConstructor
 public class OutboxPoller {
-
     private final OutboxService outboxService;
-
     @Scheduled(fixedDelay = 1000)
     public void poll() {
 
