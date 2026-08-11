@@ -11,7 +11,6 @@ OutboxPoller
      +----> retry()
 	 
 -------------------------------------
-
 @Component
 @RequiredArgsConstructor
 public class OutboxPoller {
@@ -31,7 +30,6 @@ public class OutboxPoller {
 }	 
 
 -------------------------------------
-
 @Service
 @RequiredArgsConstructor
 public class OutboxService {
